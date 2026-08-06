@@ -1,0 +1,270 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body */
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background: #2563eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Main container */
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+.container h2 {
+    margin-bottom: 15px;
+}
+
+
+.container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+
+
+/* Email box */
+
+.email-box {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #eef2ff;
+    padding: 15px;
+    border-radius: 10px;
+
+    margin: 20px 0;
+
+}
+
+
+.email-box span {
+
+    font-size: 15px;
+    word-break: break-all;
+
+}
+
+
+
+/* Buttons */
+
+button,
+.generate-btn,
+.inbox-btn,
+.back-btn {
+
+    display: inline-block;
+
+    border: none;
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    margin-top: 15px;
+
+}
+
+
+
+button:hover,
+.generate-btn:hover,
+.inbox-btn:hover,
+.back-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+
+/* Timer */
+
+.timer {
+
+    margin: 25px 0;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* Inbox messages */
+
+
+.email-list {
+
+    margin-top: 20px;
+
+}
+
+
+
+.message {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    color: #333;
+
+    background: #f8fafc;
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+}
+
+
+
+.message:hover {
+
+    background: #e0e7ff;
+
+}
+
+
+
+.message p {
+
+    margin-top: 5px;
+
+    font-size: 14px;
+
+}
+
+
+
+.message span {
+
+    font-size: 12px;
+
+    color: gray;
+
+}
+
+
+
+/* Email reading page */
+
+
+.email-content {
+
+    text-align: left;
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.email-content hr {
+
+    margin: 20px 0;
+
+    border: none;
+
+    border-top: 1px solid #ddd;
+
+}
+
+
+
+.code {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 15px;
+
+    width: fit-content;
+
+    border-radius: 8px;
+
+    margin: 15px auto;
+
+}
+
+
+
+/* Mobile responsive */
+
+
+@media(max-width:600px){
+
+    .container {
+
+        width: 95%;
+
+        padding: 20px;
+
+    }
+
+
+    .email-box {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+}
